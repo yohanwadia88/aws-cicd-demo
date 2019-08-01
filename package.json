@@ -1,7 +1,7 @@
 {
   "name": "node-archetype",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple NodeJS App",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
@@ -13,7 +13,7 @@
     "cloudformation-pipeline": "aws cloudformation create-stack --stack-name node-pipeline-stack --template-body file://cloudformation-templates/codepipeline.yml --capabilities CAPABILITY_IAM --parameters file://cloudformation-templates/parameters.json"
   },
   "keywords": [],
-  "author": "",
+  "author": "yoyo",
   "license": "ISC",
   "dependencies": {
     "eslint": "^5.2.0",
